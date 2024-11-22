@@ -48,11 +48,11 @@ Cons: Computationally heavy for large datasets.<br>
 Flatten MNIST images into vectors (784 features).<br>
 Normalize pixel values (0–255 → 0–1).<br>
 ### Prediction Interface:<br>
-Upload images and choose the model (KNN, ANN, or RF) for predictions.<br>
-Preprocess images into MNIST-compatible formats (28x28 grayscale).<br>
+- Upload images and choose the model (KNN, ANN, or RF) for predictions.<br>
+- Preprocess images into MNIST-compatible formats (28x28 grayscale).<br>
 ### Visualization:<br>
-Bar plots display confidence scores for digit classes.<br>
-Confusion matrices for evaluating model accuracy.<br>
+- Bar plots display confidence scores for digit classes.<br>
+- Confusion matrices for evaluating model accuracy.<br>
 
 # 🚀 Results
 
@@ -65,4 +65,7 @@ Confusion matrices for evaluating model accuracy.<br>
 | **Random Forest**| 97.16       | 97.16         | 97.16      | 97.16        |
 
 
-
+## Observations
+- ANN: Highest accuracy but misclassified some unseen test digits.<br>
+- KNN: Most robust, correctly classified all test samples.<br>
+- Random Forest: Stable performance but struggled with one random sample.<br>
