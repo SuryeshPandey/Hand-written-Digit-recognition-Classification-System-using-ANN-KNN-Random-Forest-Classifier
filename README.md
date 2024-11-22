@@ -7,5 +7,12 @@ It focuses on implementing and comparing K-Nearest Neighbors (KNN), Artificial N
 
 Handwritten digit recognition is a multi-class classification problem in computer vision and machine learning, with applications like postal mail sorting and form digitization. This project demonstrates the implementation and evaluation of three ML models on the MNIST dataset.
 
+# 🎯 Objectives
 
+1- Train and evaluate the following machine learning models:
+  K-Nearest Neighbors (KNN)
+  Artificial Neural Networks (ANN)
+  Random Forest (RF)
 
+2- Develop a user-friendly interface to classify handwritten digits from uploaded images.
+Visualize prediction confidence and evaluate model performance.
