@@ -10,7 +10,7 @@ Handwritten digit recognition is a multi-class classification problem in compute
 # 🎯 Objectives
 
 1- Train and evaluate the following machine learning models:<br>
-  K-Nearest Neighbors (KNN)
+  K-Nearest Neighbors (KNN)<p>
   Artificial Neural Networks (ANN)
   Random Forest (RF)
 
