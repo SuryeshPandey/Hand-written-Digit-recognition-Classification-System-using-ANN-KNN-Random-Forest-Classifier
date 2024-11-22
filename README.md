@@ -16,3 +16,14 @@ Handwritten digit recognition is a multi-class classification problem in compute
 
 2- Develop a user-friendly interface to classify handwritten digits from uploaded images.
 Visualize prediction confidence and evaluate model performance.
+
+# 📚 Dataset
+
+Initial Dataset<br>
+Locally stored MNIST dataset in CSV format.<br>
+Challenges included manual reshaping, normalization, and scaling.<br>
+
+Transition to TensorFlow’s Built-in MNIST Dataset<br>
+Preprocessed and standardized 28x28 grayscale images.<br>
+Improved reliability and reduced preprocessing complexity.<br>
+Enabled image augmentation for better generalization.<br>
